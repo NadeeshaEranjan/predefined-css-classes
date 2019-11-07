@@ -157,3 +157,21 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+.mobile-hide{
+    display: block;
+}
+
+.mobile-show{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-show{
+        display: block;
+    }
+}
