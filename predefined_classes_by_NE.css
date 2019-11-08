@@ -141,6 +141,10 @@ html,body{
     display: flex;
 }
 
+.flex-1{
+    flex: 1;
+}
+
 .flex-align-self-top{
     align-self: flex-start;
 }
