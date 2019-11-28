@@ -6,6 +6,17 @@ html,body{
     margin: 0px;
 }
 
+
+::-moz-selection { /* Code for Firefox */
+  color: #000;
+  background: #03c1c9;
+}
+
+::selection {
+  color: #000;
+  background: #03c1c9;
+}
+
 /*predefined margin classes*/
 
 .m-0{ margin: 0px; }
@@ -167,6 +178,45 @@ html,body{
 .ptb-100{ padding-top: 100px; padding-bottom: 100px; }
 
 /*eof predefined padding classes*/
+
+
+.col-xs-1.plr-0, .col-sm-1.plr-0, .col-md-1.plr-0, .col-lg-1.plr-0,
+.col-xs-2.plr-0, .col-sm-2.plr-0, .col-md-2.plr-0, .col-lg-2.plr-0,
+.col-xs-3.plr-0, .col-sm-3.plr-0, .col-md-3.plr-0, .col-lg-3.plr-0,
+.col-xs-4.plr-0, .col-sm-4.plr-0, .col-md-4.plr-0, .col-lg-4.plr-0, 
+.col-xs-5.plr-0, .col-sm-5.plr-0, .col-md-5.plr-0, .col-lg-5.plr-0, 
+.col-xs-6.plr-0, .col-sm-6.plr-0, .col-md-6.plr-0, .col-lg-6.plr-0, 
+.col-xs-7.plr-0, .col-sm-7.plr-0, .col-md-7.plr-0, .col-lg-7.plr-0, 
+.col-xs-8.plr-0, .col-sm-8.plr-0, .col-md-8.plr-0, .col-lg-8.plr-0, 
+.col-xs-9.plr-0, .col-sm-9.plr-0, .col-md-9.plr-0, .col-lg-9.plr-0, 
+.col-xs-10.plr-0, .col-sm-10.plr-0, .col-md-10.plr-0, .col-lg-10.plr-0, 
+.col-xs-11.plr-0, .col-sm-11.plr-0, .col-md-11.plr-0, .col-lg-11.plr-0,
+.col-xs-12.plr-0, .col-sm-12.plr-0, .col-md-12.plr-0, .col-lg-12.plr-0{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+/*predefined font classes*/
+
+.font-10{font-size: 10px;}
+.font-11{font-size: 11px;}
+.font-12{font-size: 12px;}
+.font-13{font-size: 13px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+
+.small-title{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*eof predefined font classes*/
+
+a:hover, a:focus{
+    text-decoration: none !important;
+}
 
 .opacity-0{
     opacity: 0;
